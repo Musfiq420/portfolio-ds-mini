@@ -5,26 +5,31 @@ const skillCategories = [
     skills: ['Python', 'SQL', 'Javascript', 'Dart', 'C#'],
   },
   {
-    category: 'Machine Learning',
-    skills: ['Scikit-learn', 'TensorFlow', 'PyTorch', 'XGBoost', 'Keras'],
+    category: 'Machine Learning & AI',
+    skills: ['Scikit-learn', 'TensorFlow', 'PyTorch', 'XGBoost', 'Keras', 'Regression', 'Classification', 'Predictive Modeling', 'Feature Engineering'],
+  },
+  {
+    category: 'Deep Learning & NLP',
+    skills: ['BERT', 'BiLSTM', 'Transformers', 'Word2Vec', 'Bangla NLP', 'RAG', 'LLMs (Groq, OpenAI APIs)'],
   },
   {
     category: 'Data Analysis',
-    skills: ['Pandas', 'NumPy', 'SciPy', 'Statistical Modeling', 'A/B Testing'],
+    skills: ['Pandas', 'NumPy', 'SciPy', 'Statistical Modeling', 'A/B Testing', 'EDA'],
   },
   {
-    category: 'Visualization',
-    skills: ['Matplotlib', 'Seaborn', 'Plotly', 'Tableau', 'Power BI'],
+    category: 'Visualization & BI',
+    skills: ['Matplotlib', 'Seaborn', 'Plotly', 'Tableau', 'Power BI', 'Streamlit'],
   },
   {
-    category: 'Big Data',
-    skills: ['Snowflake', 'Talend'],
+    category: 'Big Data & ETL',
+    skills: ['Snowflake', 'Talend', 'ETL pipelines', 'Data Warehousing'],
   },
   {
     category: 'Cloud & DevOps',
-    skills: ['Google Cloud', 'Git'],
+    skills: ['Google Cloud', 'Git', 'GitHub Actions', 'Docker', 'CI/CD'],
   },
 ];
+
 
 export default function Skills() {
   return (
