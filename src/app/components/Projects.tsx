@@ -3,11 +3,24 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: 'RAG-Based MCQ Generator (NCTB Books)',
+    description: 'Generates interactive Bengali MCQs for NCTB Physics using semantic search (Pinecone) and LLM (Groq) with a Streamlit interface.',
+    tags: ['Python', 'Langchain', 'Pinecone', 'Groq', 'RAG', 'NLP'],
+    github: 'https://github.com/Musfiq420/rag-mcq-generator',
+    demo: 'https://rag-mcq-generator.streamlit.app/',
+  },
+  {
     title: 'Aquaculture Data Analysis and Prediction',
     description: 'Water quality data from Montería, Colombia is analyzed to track temperature, pH, and dissolved oxygen. A machine learning model predicts turbidity (water clarity).',
     tags: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'Streamlit'],
     github: 'https://github.com/Musfiq420/aquaculture-prediction',
     demo: 'https://aquaculture-prediction.streamlit.app/',
+  },
+    {
+    title: 'A Symptom to Disease Model using BERT',
+    description: 'Built a Symptom-to-Disease prediction model using BERT, achieving 94% accuracy. NLP preprocessing, EDA, and model comparison across ML, BiLSTM, and BERT.',
+    tags: ['Python', 'BERT', 'NLTK', 'BiLSTM', 'NLP'],
+    github: 'https://www.kaggle.com/code/mdmusfiqri/a-symptom-to-disease-model-using-bert',
   },
   {
     title: 'Extrovert vs Introvert Personality Predictor',
@@ -16,13 +29,13 @@ const projects = [
     github: 'https://github.com/Musfiq420/personality-prediction',
     demo: 'https://personality-prediction-123.streamlit.app/',
   },
-  {
-    title: 'Disease Prediction',
-    description: 'A machine learning project to predict diseases based on user-selected symptoms. The model uses Random Forest and achieves 100% accuracy on the test set.',
-    tags: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'Streamlit'],
-    github: 'https://github.com/Musfiq420/personality-prediction',
-    demo: 'https://personality-prediction-123.streamlit.app/',
-  },
+  // {
+  //   title: 'Disease Prediction',
+  //   description: 'A machine learning project to predict diseases based on user-selected symptoms. The model uses Random Forest and achieves 100% accuracy on the test set.',
+  //   tags: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'Streamlit'],
+  //   github: 'https://github.com/Musfiq420/personality-prediction',
+  //   demo: 'https://personality-prediction-123.streamlit.app/',
+  // },
   {
     title: 'Depression Prediction',
     description: 'Developed a depression classifier using XGBoost, achieving 98.3% accuracy. Implemented feature encoding, scaling, and imbalance handling with scikit-learn and Python.',
@@ -35,12 +48,7 @@ const projects = [
     tags: ['Python', 'BNLP', 'matplotlib', 'BengaliWord2Vec', 'wordcloud'],
     github: 'https://www.kaggle.com/code/mdmusfiqri/ruqyahbd-bangla-nlp-symptoms-analysis-word-embed',
   },
-  {
-    title: 'A Symptom to Disease Model using BERT',
-    description: 'Built a Symptom-to-Disease prediction model using BERT, achieving 94% accuracy. NLP preprocessing, EDA, and model comparison across ML, BiLSTM, and BERT.',
-    tags: ['Python', 'BERT', 'NLTK', 'BiLSTM', 'NLP'],
-    github: 'https://www.kaggle.com/code/mdmusfiqri/a-symptom-to-disease-model-using-bert',
-  },
+
 ];
 
 export default function Projects() {
