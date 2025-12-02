@@ -3,6 +3,13 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+  title: 'Conceptiq',
+  description: 'Frontend (Next.js) + backend (Django) — implemented OpenAI API to generate contents.',
+  tags: ['Next.js', 'Django', 'OpenAI API', 'Full-Stack', 'Python', 'JavaScript'],
+  github:'https://github.com/Musfiq420/Conceptiq-frontend',
+  demo: 'https://conceptiq-frontend.vercel.app/'
+},
+  {
     title: 'RAG-Based MCQ Generator (NCTB Books)',
     description: 'Generates interactive Bengali MCQs for NCTB Physics using semantic search (Pinecone) and LLM (Groq) with a Streamlit interface.',
     tags: ['Python', 'Langchain', 'Pinecone', 'Groq', 'RAG', 'NLP'],

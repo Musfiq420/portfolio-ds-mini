@@ -21,6 +21,12 @@ const skillCategories = [
     skills: ['Matplotlib', 'Seaborn', 'Plotly', 'Tableau', 'Power BI', 'Streamlit'],
   },
   {
+    category: 'Web / Full-Stack Development',
+    skills: ['Next.js', 'Django', 'REST APIs', 'Frontend (React/JavaScript)',
+             'Backend (Python/Django)', 'API Integration', 'OpenAI API',
+             'Web Deployment', 'Vercel / Hosting'],
+  },
+  {
     category: 'Big Data & ETL',
     skills: ['Snowflake', 'Talend', 'ETL pipelines', 'Data Warehousing'],
   },
