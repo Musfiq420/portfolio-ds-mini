@@ -3,18 +3,18 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-  title: 'Conceptiq',
-  description: 'Frontend (Next.js) + backend (Django) — implemented OpenAI API to generate contents.',
-  tags: ['Next.js', 'Django', 'OpenAI API', 'Full-Stack', 'Python', 'JavaScript'],
-  github:'https://github.com/Musfiq420/Conceptiq-frontend',
-  demo: 'https://conceptiq-frontend.vercel.app/'
-},
+    title: 'Conceptiq',
+    description: 'Full-stack ed-tech platform. Backend deployed on AWS EC2 using Docker & Nginx reverse proxy. Integrated OpenAI API for content generation.', // Updated description
+    tags: ['Next.js', 'Django', 'OpenAI API', 'AWS', 'Docker', 'Nginx', 'Full-Stack'], // Updated tags
+    github: 'https://github.com/Musfiq420/Conceptiq-frontend',
+    demo: 'https://conceptiq.io/'
+  },
   {
-    title: 'RAG-Based MCQ Generator (NCTB Books)',
-    description: 'Generates interactive Bengali MCQs for NCTB Physics using semantic search (Pinecone) and LLM (Groq) with a Streamlit interface.',
-    tags: ['Python', 'Langchain', 'Pinecone', 'Groq', 'RAG', 'NLP'],
-    github: 'https://github.com/Musfiq420/rag-mcq-generator',
-    demo: 'https://rag-mcq-generator.streamlit.app/',
+    title: 'AI MCQ Test Generator',
+    description: 'A full-stack MCQ generator using FastAPI and Next.js. Features OCR (Tesseract), RAG with Pinecone/LangChain, and Prompt Chaining for high-quality question generation.',
+    tags: ['FastAPI', 'LangChain', 'Pinecone', 'OCR', 'Next.js', 'Docker', 'OpenAI'],
+    github: 'https://github.com/Musfiq420/ai-mcq-test-generator-fastapi-backend', 
+    demo: 'https://ai-mcq-test-generator.vercel.app/', 
   },
   {
     title: 'Aquaculture Data Analysis and Prediction',
@@ -23,7 +23,7 @@ const projects = [
     github: 'https://github.com/Musfiq420/aquaculture-prediction',
     demo: 'https://aquaculture-prediction.streamlit.app/',
   },
-    {
+  {
     title: 'A Symptom to Disease Model using BERT',
     description: 'Built a Symptom-to-Disease prediction model using BERT, achieving 94% accuracy. NLP preprocessing, EDA, and model comparison across ML, BiLSTM, and BERT.',
     tags: ['Python', 'BERT', 'NLTK', 'BiLSTM', 'NLP'],
@@ -36,13 +36,6 @@ const projects = [
     github: 'https://github.com/Musfiq420/personality-prediction',
     demo: 'https://personality-prediction-123.streamlit.app/',
   },
-  // {
-  //   title: 'Disease Prediction',
-  //   description: 'A machine learning project to predict diseases based on user-selected symptoms. The model uses Random Forest and achieves 100% accuracy on the test set.',
-  //   tags: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'Streamlit'],
-  //   github: 'https://github.com/Musfiq420/personality-prediction',
-  //   demo: 'https://personality-prediction-123.streamlit.app/',
-  // },
   {
     title: 'Depression Prediction',
     description: 'Developed a depression classifier using XGBoost, achieving 98.3% accuracy. Implemented feature encoding, scaling, and imbalance handling with scikit-learn and Python.',
@@ -55,7 +48,6 @@ const projects = [
     tags: ['Python', 'BNLP', 'matplotlib', 'BengaliWord2Vec', 'wordcloud'],
     github: 'https://www.kaggle.com/code/mdmusfiqri/ruqyahbd-bangla-nlp-symptoms-analysis-word-embed',
   },
-
 ];
 
 export default function Projects() {

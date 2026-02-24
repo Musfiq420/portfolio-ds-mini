@@ -6,11 +6,15 @@ const skillCategories = [
   },
   {
     category: 'Machine Learning & AI',
-    skills: ['Scikit-learn', 'TensorFlow', 'PyTorch', 'XGBoost', 'Keras', 'Regression', 'Classification', 'Predictive Modeling', 'Feature Engineering'],
+    skills: ['Scikit-learn', 'TensorFlow', 'PyTorch', 'XGBoost', 'Keras', 
+             'Regression', 'Classification', 'Predictive Modeling', 
+             'Feature Engineering', 'OCR (Tesseract)', 'Prompt Engineering'],
   },
   {
     category: 'Deep Learning & NLP',
-    skills: ['BERT', 'BiLSTM', 'Transformers', 'Word2Vec', 'Bangla NLP', 'RAG', 'LLMs (Groq, OpenAI APIs)'],
+    skills: ['BERT', 'BiLSTM', 'Transformers', 'Word2Vec', 'Bangla NLP', 
+             'RAG (Retrieval-Augmented Generation)', 'LLMs (Groq, OpenAI APIs)', 
+             'LangChain', 'Pydantic'],
   },
   {
     category: 'Data Analysis',
@@ -22,17 +26,19 @@ const skillCategories = [
   },
   {
     category: 'Web / Full-Stack Development',
-    skills: ['Next.js', 'Django', 'REST APIs', 'Frontend (React/JavaScript)',
-             'Backend (Python/Django)', 'API Integration', 'OpenAI API',
+    skills: ['Next.js', 'Django', 'FastAPI', 'REST APIs', 'Frontend (React/JavaScript)',
+             'Backend (Python/Django/FastAPI)', 'API Integration', 'OpenAI API',
              'Web Deployment', 'Vercel / Hosting'],
   },
   {
     category: 'Big Data & ETL',
-    skills: ['Snowflake', 'Talend', 'ETL pipelines', 'Data Warehousing'],
+    skills: ['Snowflake', 'Talend', 'ETL pipelines', 'Data Warehousing', 
+             'Pinecone (Vector Database)', 'Vector Search'],
   },
   {
     category: 'Cloud & DevOps',
-    skills: ['Google Cloud', 'Git', 'GitHub Actions', 'Docker', 'CI/CD'],
+    skills: ['Google Cloud', 'Git', 'GitHub Actions', 'Docker', 'CI/CD', 
+             'Hugging Face Spaces', 'AWS (EC2)', 'Nginx', 'Linux Server Management'], // Added Nginx & Linux
   },
 ];
 
