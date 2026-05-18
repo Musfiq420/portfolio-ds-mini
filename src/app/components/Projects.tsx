@@ -9,6 +9,14 @@ const projects = [
     github: 'https://github.com/Musfiq420/Conceptiq-frontend',
     demo: 'https://conceptiq.io/'
   },
+
+  {
+    title: 'AnyLearn: AI Study Assistant',
+    description: 'A full-stack learning platform that turns uploaded study materials (PDF, DOCX, PPTX, images) into structured courses, lessons, and exams. Features OCR (Tesseract), an ingestion pipeline with text extraction, chunking and embeddings, and pluggable LLM providers (OpenAI/Gemini) for slide and exam generation.',
+    tags: ['Django', 'DRF', 'Celery', 'Redis', 'Next.js', 'React', 'OpenAI', 'Gemini', 'OCR', 'PWA'],
+    github: 'https://github.com/Musfiq420/ai-study-assistant-fullstack',
+    demo: 'https://anylearnai.vercel.app/',
+  },
   {
     title: 'AI MCQ Test Generator',
     description: 'A full-stack MCQ generator using FastAPI and Next.js. Features OCR (Tesseract), RAG with Pinecone/LangChain, and Prompt Chaining for high-quality question generation.',
